@@ -25,15 +25,9 @@ class ViewController: UIViewController {
     }
 
     @IBAction func makeMeSuperCool(_ sender: UIButton) {
-        if (!uncoolButton.isHidden) {
-            uncoolButton.isHidden = true
-            coolLogo.isHidden = false
-            coolBg.isHidden = false
-        } else {
-            uncoolButton.isHidden = false
-            coolLogo.isHidden = true
-            coolBg.isHidden = true
-        }
+        uncoolButton.isHidden = true
+        coolLogo.isHidden = false
+        coolBg.isHidden = false
     }
 }
 
